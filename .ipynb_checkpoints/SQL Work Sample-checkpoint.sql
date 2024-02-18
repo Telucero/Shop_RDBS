@@ -11,9 +11,6 @@ If Object_ID ('dbo.prj_transaction_type') is not null
 	drop table dbo.prj_transaction_type;
 
 
-
-
-
 Create table prj_transaction_type (
 	trans_type_id int Identity NOT NULL PRIMARY KEY,
 	trans_type_text VARCHAR(30) Unique NOT NULL)
